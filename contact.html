@@ -40,7 +40,7 @@
 			<div class="inner cover">
 				<h1 class="cover-heading">My name is Jan Kucera</h1>
 				<p class="lead">I live in Bratislava, Slovakia and I'm full stack web developer.
-				If you are interested in anything, please feel free to <a href="mailto:jk@jankucera.sk">contact me</a>.</p>
+				<br />If you are interested in anything, please feel free to <a href="mailto:jk@jankucera.sk">contact me</a>.</p>
 			</div>
 
 			<div class="mastfoot">
@@ -55,6 +55,9 @@
 		<div id="map"></div>
 		<script type="text/javascript">
 
+		var labels = 'jk';
+		var labelIndex = 0;
+
 		function initMap() {
 		  var myLatLng = {lat: 48.1441998, lng: 17.1034831};
 
@@ -63,11 +66,14 @@
 		    center: myLatLng
 		  });
 
-		  var marker = new google.maps.Marker({
-		    position: myLatLng,
-		    map: map,
-		    title: 'jankucera.sk'
-		  });
+		  var image = 'img/logo.png';
+		  var beachMarker = new google.maps.Marker({
+		  	position: {lat: 48.1441998, lng: 17.1034831},
+    		map: map,
+    		icon: image,
+    		title: 'jankucera.sk'
+
+  		});		  
 		}
 
 /*
