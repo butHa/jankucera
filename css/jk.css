@@ -1,33 +1,25 @@
-/*
- * Globals
- */
+/* jk */
 
-/* Links */
 a,
 a:focus,
 a:hover {
   color: #fff;
 }
 
-/* Custom default button */
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
   color: #333;
-  text-shadow: none; /* Prevent inheritence from `body` */
+  text-shadow: none;
   background-color: #fff;
   border: 1px solid #fff;
 }
 
 
-/*
- * Base structure
- */
-
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #333;  
 }
 body {
   color: #fff;
@@ -35,8 +27,7 @@ body {
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
-/* Extra markup and styles for table-esque vertical and horizontal centering */
-.site-wrapper {
+.page {
   display: table;
   width: 100%;
   height: 100%; /* For at least Firefox */
@@ -53,15 +44,11 @@ body {
   margin-left: auto;
 }
 
-/* Padding for spacing */
 .inner {
   padding: 30px;
 }
 
 
-/*
- * Header
- */
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -104,10 +91,6 @@ body {
   }
 }
 
-
-/*
- * Cover
- */
 
 .cover {
   padding: 0 20px;
