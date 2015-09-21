@@ -82,6 +82,7 @@ body {
   border-bottom-color: #fff;
 }
 
+
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;
@@ -101,24 +102,14 @@ body {
   font-weight: bold;
 }
 
-
-/*
- * Footer
- */
-
 .mastfoot {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
 }
 
 
-/*
- * Affix and center
- */
-
 @media (min-width: 768px) {
-  /* Pull out the header and footer */
-  .masthead {
+    .masthead {
     position: fixed;
     top: 0;
   }
@@ -126,15 +117,15 @@ body {
     position: fixed;
     bottom: 0;
   }
-  /* Start the vertical centering */
+  
   .site-wrapper-inner {
     vertical-align: middle;
   }
-  /* Handle the widths */
+  
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+    width: 100%; 
   }
 }
 
@@ -147,6 +138,21 @@ body {
 }
 
 
-
 html, body { height: 100%; margin: 0; padding: 0; }
-#map { height: 500px; }
+
+#map {
+  height: 500px;
+  background: #ccc;
+  filter: alpha(opacity=60);
+  /* IE */
+  -moz-opacity: 0.6;
+  /* Mozilla */
+  opacity: 0.6;
+}
+
+.page {
+  background-image:url("../img/bg-ba.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}

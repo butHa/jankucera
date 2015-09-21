@@ -51,53 +51,26 @@
 		</div>
 
 
-
 		<div id="map"></div>
+
 		<script type="text/javascript">
+			var labels = 'jk';
+			var labelIndex = 0;
 
-		var labels = 'jk';
-		var labelIndex = 0;
-
-		function initMap() {
-		  var myLatLng = {lat: 48.1441998, lng: 17.1034831};
-
-		  var map = new google.maps.Map(document.getElementById('map'), {
-		    zoom: 14,
-		    center: myLatLng
-		  });
-
-		  var image = 'img/logo.png';
-		  var beachMarker = new google.maps.Marker({
-		  	position: {lat: 48.1441998, lng: 17.1034831},
-    		map: map,
-    		icon: image,
-    		title: 'jankucera.sk'
-
-  		});		  
-		}
-
-/*
-		var map;
-		function initMap() {
-			map = new google.maps.Map(document.getElementById('map'), {
-				center: {lat: 48.1441998, lng: 17.1034831}, 
-				zoom: 16,
-				mapTypeControl: true,
-				mapTypeControlOptions: {
-  				style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
-  				mapTypeIds: [
-  					google.maps.MapTypeId.ROADMAP, 
-  					google.maps.MapTypeId.TERRAIN
-  				]
-  				},
-			    zoomControl: true,
-			    zoomControlOptions: {
-			      style: google.maps.ZoomControlStyle.SMALL
-			    }
-			});			
-		}
-*/
-
+			function initMap() {
+				var myLatLng = {lat: 48.1441998, lng: 17.1034831};
+				var map = new google.maps.Map(document.getElementById('map'), {
+					zoom: 14,
+					center: myLatLng
+				});
+				var image = 'img/logo.png';
+				var beachMarker = new google.maps.Marker({
+					position: {lat: 48.1441998, lng: 17.1034831},
+					map: map,
+					icon: image,
+					title: 'jankucera.sk'
+				});
+			}
 	    </script>		
 	</div>
 </div>
