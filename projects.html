@@ -16,7 +16,9 @@
 <![endif]-->
 </head>
 <body>
-
+<!--[if lt IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
 <div class="page">
 	<div class="site-wrapper-inner">
 		<div class="cover-container">
@@ -32,12 +34,7 @@
 					</nav>
 				</div>
 			</div>
-			<div class="inner cover">
-				
-				<h2>For Quintiles</h2>
-				<p><a href="http://projects.jankucera.sk/cascade/" target="_blank">Cascade template for quintiles</a></p>
-				<p><a href="http://projects.jankucera.sk/plegridy/" target="_blank">Plegridy template for quintiles</a></p>
-				<p><a href="http://projects.jankucera.sk/sustain/" target="_blank">Sustain template for quintiles</a></p>
+			<div class="inner cover">				
 				
 				<h2>Freelance</h2>	
 				<p><a href="http://lavastranacojesvama.sk/" target="_blank">lavastranacojesvama.sk</a></p>
@@ -48,8 +45,7 @@
 				
 				<h2>Charity projects</h2>
 				<p><a href="http://www.sclerosis-multiplex.sk/">sclerosis-multiplex.sk</a></p>
-				<p><a href="http://nechcemalemusim.sk/">nechcemalemusim.sk</a></p>
-				
+				<p><a href="http://nechcemalemusim.sk/">nechcemalemusim.sk</a></p>				
 
 			</div>
 
@@ -73,6 +69,13 @@
 	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 	ga('create', 'UA-64010754-1', 'auto');
 	ga('send', 'pageview');
+</script>
+<script>
+function myFunction() {
+    var d = new Date();
+    var n = d.getFullYear();
+    document.getElementById("rok").innerHTML = n;
+}
 </script>
 </body>
 </html>
