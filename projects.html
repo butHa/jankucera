@@ -15,7 +15,7 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 </head>
-<body>
+<body onload="myFunctionYear()">
 <!--[if lt IE 9]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
@@ -34,24 +34,23 @@
 					</nav>
 				</div>
 			</div>
-			<div class="inner cover">				
-				
-				<h2>Freelance</h2>	
+			<div class="inner cover">
+
+			<h2>Past projects</h2>				
 				<p><a href="http://lavastranacojesvama.sk/" target="_blank">lavastranacojesvama.sk</a></p>
-
-				<h2>Older projects</h2>
+				<p><a href="http://www.istropolitana.sk/" target="blank">istropolitana.sk</p>
+				<p><a href="http://wst-versicherungsverein.at/" target="_blank">wst-versicherungsverein.at</p>
+				<p><a href="http://interorto.eu/">interorto.eu</a></p>				
 				<p><a href="http://wst-versicherungsverein.at/">wst-versicherungsverein.at</a></p>
-				<p><a href="http://slovenskepivo.sk/">slovenskepivo.sk</a></p>
-				
-				<h2>Charity projects</h2>
+				<p><a href="http://slovenskepivo.sk/">slovenskepivo.sk</a></p>				
 				<p><a href="http://www.sclerosis-multiplex.sk/">sclerosis-multiplex.sk</a></p>
-				<p><a href="http://nechcemalemusim.sk/">nechcemalemusim.sk</a></p>				
-
+				<p><a href="http://nechcemalemusim.sk/">nechcemalemusim.sk</a></p>
+				<p><a href="http://www.rezidenciakaskady.sk/" target="_blank">rezidenciakaskady.sk</a></p>
 			</div>
 
 			<div class="mastfoot">
 				<div class="inner">
-					<p>jankucera, &copy 2015.</p>
+					<p>jankucera, &copy <span id="myYear"></span>.</p>
 				</div>
 			</div>
 		</div>
@@ -71,10 +70,10 @@
 	ga('send', 'pageview');
 </script>
 <script>
-function myFunction() {
+function myFunctionYear() {
     var d = new Date();
     var n = d.getFullYear();
-    document.getElementById("rok").innerHTML = n;
+    document.getElementById("myYear").innerHTML = n;
 }
 </script>
 </body>
