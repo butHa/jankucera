@@ -7,7 +7,6 @@
 <title>jankucera.sk</title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 <link rel="stylesheet" href="css/jk.css" type="text/css" />
-<link rel="stylesheet" href="css/full-width-pics.css" />
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" type="text/css" />
 <link rel="icon" href="/favicon.ico" />
@@ -21,121 +20,70 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
-<!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#"><img class="img-responsive img-center" src="img/logo.png" alt="jk" /></a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                	<li><a href="#">About</a></li>
-                	<li><a href="#">Projects</a></li>
-                	<li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <!-- Full Width Image Header with Logo -->
-    <!-- Image backgrounds are set within the full-width-pics.css file. -->
-    <!--header class="image-bg-fluid-height">
-        <img class="img-responsive img-center" src="img/logo.png" alt="jk" />
-    </header-->
-
-    <!-- Content Section -->
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="section-heading">&lt;3 frontend, git and apple.</h1>
-                    <p class="lead section-lead">Here, you can find list of my latest work and projects.</p>
-                    <p class="section-paragraph"><a href="projects.html" class="btn btn-lg btn-default">Check it out</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <aside class="image-bg-fixed-height"></aside>
-
-   
-
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; jankucera <span id="myYear"></span></p>
-                </div>
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </footer>
-
-
-
-
-
-
-<!--div class="page">
-	<div class="site-wrapper-inner">
-		<div class="cover-container">
-			<div class="masthead clearfix">
-				<div class="inner">
-				<h3 class="masthead-brand"><a href="/"><img src="img/logo.png" class="" alt="jk" /></a></h3>
-					<nav>
-						<ul class="nav masthead-nav">
-							<li class="active"><a href="/">Home</a></li>
-							<li><a href="projects.html">Projects</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</nav>
-				</div>
+<header style="height: 100px;">
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="container">	
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#"><img class="img-responsive img-center" src="img/logo.png" alt="jk" /></a>
 			</div>
-			<div class="inner cover">
-				<h1 class="cover-heading"><3 frontend, git and apple.</h1>
-				<p class="lead">Here, you can find list of my latest work and projects.</p>
-				<p class="lead"><a href="projects.html" class="btn btn-lg btn-default">Check it out</a></p>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a href="#">About</a></li>
+					<li><a href="#">Projects</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
 			</div>
+		</div>
+	</nav>
+</header>
 
-			<div class="mastfoot">
-				<div class="inner">
-					<p>jankucera, &copy 2015.</p>
-				</div>
+<section>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">			
+				<h1 class="section-heading">&lt;3 frontend, git and apple.</h1>
+				<p class="lead section-lead"><a href="projects.html" class="btn btn-lg btn-default">Here, you can find list of my latest works and projects</a>.</p>
 			</div>
 		</div>
 	</div>
-</div-->
+</section>
+
+<aside class="image-bg-fixed-height"></aside>
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<p>Copyright &copy; jankucera <span id="myYear"></span></p>
+			</div>
+		</div>
+	</div>
+</footer>
 
 <!-- javascript -->
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jk.js"></script>
-<script>
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+<script> 
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ 
 		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), 
-		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-64010754-1', 'auto');
-	ga('send', 'pageview');
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) 
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga'); 
+	ga('create', 'UA-64010754-1', 'auto'); 
+	ga('send', 'pageview'); 
 </script>
-<script>
-function myFunctionYear() {
-    var d = new Date();
-    var n = d.getFullYear();
-    document.getElementById("myYear").innerHTML = n;
-}
+<script> 
+	function myFunctionYear() { 
+		var d = new Date(); 
+		var n = d.getFullYear(); 
+		document.getElementById("myYear").innerHTML = n; 
+	} 
 </script>
 </body>
 </html>
