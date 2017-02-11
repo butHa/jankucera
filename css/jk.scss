@@ -18,6 +18,22 @@ html, body {
 	padding: 0; 
 }
 
+body { 
+	padding-top: 70px; 
+	background-image:url(../img/bg-ba-night.jpg); 	
+	background-repeat: no-repeat; 
+	background-size: cover; 
+}
+
+header {
+	height: auto;  		
+	
+}
+section {
+	
+	padding: 1rem;
+}
+
 /* google map */ 
 
 #map { 
