@@ -19,24 +19,18 @@ html, body {
 }
 
 body { 
+	color: #fff; 
+	text-shadow: 0 1px 3px rgba(0,0,0,.5); 	
+	background-color:#222; 
 	padding-top: 70px; 
-	background-image:url(../img/bg-ba-night.jpg); 	
+	background-image: url(../img/bg-ba-night.jpg); 	
 	background-repeat: no-repeat; 
 	background-size: cover; 
 }
 
-header {
-	height: auto;  		
-	
-}
-section {
-	
-	padding: 1rem;
-}
-
 /* google map */ 
 
-#map { 
+.map { 
 	height: auto; 
 	background: #ccc; 
 	filter: alpha(opacity=70); 
@@ -44,16 +38,6 @@ section {
 	-moz-opacity: 0.7; 
 	/* Mozilla */ 
 	opacity: 0.7; 
-} 
-
-body { 
-	color: #fff; 
-	text-shadow: 0 1px 3px rgba(0,0,0,.5); 
-	background-position: top center; 
-	background-repeat: no-repeat; 
-	background-attachment: fixed; 
-	background-size: cover; 
-	background-color:#222; 
 } 
 
 /* For mobile devices */ 
